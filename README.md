@@ -1,2 +1,14 @@
-# ONNX-Face-Detection-using-YOLOv8
-A Python project for real-time face detection in images, videos, and webcam feeds using the YOLOv8 model with ONNX runtime, optimized for GPU and CPU environments
+# Face Detection with ONNX
+
+Detect faces in images, videos, and webcam feeds using an ONNX model. Test inputs are located in the `test_inputs/` folder, and all outputs are saved in the `output/` folder.
+
+## Prerequisites
+
+- **OS**: Linux/Unix/Windows  
+- **Python**: 3.10  
+
+### Set Up Virtual Environment
+
+```bash
+python -m venv myenv 
+source myenv/bin/activate

@@ -37,7 +37,7 @@ mkdir models
 wget https://github.com/lindevs/yolov8-face/releases/latest/download/yolov8n-face-lindevs.onnx -P models/
 
 ```
-Convert the onnx model to fixed inout dimensions
+Convert the onnx model to fixed input dimensions
 ```
 python onnx_convert_fixed_dims.py <path_to_onnx_model> <destination_path>
 
